@@ -5,5 +5,5 @@ Práctica sobre una pasteleria en la cual debiamos de realizar un logo, crear un
 
 # [Practica CSS](./PracticaCSS/practica.html)
 
-# [Practica JS](https://manyph.github.io/Front-End/PracticaJS/pokedex.html)
+# [Practica JS](https://manyph.github.io/FrontEnd/PracticaJS/pokedex.html)
 Práctica en la que consistia que apartir de CSS formar una pokedex y con la ayuda de la Api pokeapi obtener ciertos datos de los pokemones.
