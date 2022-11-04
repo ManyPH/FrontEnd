@@ -1,0 +1,314 @@
+.base{
+ height: 400px;
+ width: 836px;
+    background-color: rgba(221, 43, 43, 0.821);
+    padding: 10px;
+    border: 1px solid;
+}
+
+.rojo{
+        width: 19px;
+         height: 19px;
+         border-radius: 50%;
+         background-color: rgb(15, 4, 4);
+         margin-left: 50px;
+         margin-top: -1px;
+}
+.rojo2{
+    width: 16px;
+     height: 16px;
+     border-radius: 50%;
+     background-color: rgb(245, 36, 36);
+    margin-left: 1px;
+    margin-top: 2px;
+}
+
+.amarillo{
+    width: 19px;
+     height: 19px;
+     border-radius: 50%;
+     background-color: rgb(15, 4, 4);
+     margin-left: 80px;
+     margin-top: -21px;
+}
+.amarillo2{
+width: 16px;
+ height: 16px;
+ border-radius: 50%;
+ background-color: rgb(235, 245, 36);
+margin-left: 2px;
+margin-top: 2px;
+}
+
+.verde{
+    width: 19px;
+     height: 19px;
+     border-radius: 50%;
+     background-color: rgb(15, 4, 4);
+     margin-left: 110px;
+     margin-top: -21px;
+}
+.verde2{
+width: 16px;
+ height: 16px;
+ border-radius: 50%;
+ background-color: rgb(33, 250, 29);
+margin-left: 1px;
+margin-top: 2px;
+}
+
+.circulo{
+    width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background-color: rgb(49, 58, 57);}
+.circulo2{
+    width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: rgb(19, 224, 200);
+     margin-left: 1px;
+     padding:3px
+}
+.circulo3{
+    width: 20px;
+     height: 10px;
+     border-radius: 50%;
+     background-color: rgb(193, 233, 228);
+     margin-left: 10px;
+}
+.oscuro{
+    width:180px;
+    height: 7px;
+    background-color: rgb(3, 1, 1);
+    margin-top: 15px;
+    margin-left: -10px;
+}
+
+.oscuro2{
+    width:50px;
+    height: 7px;
+    background-color: rgb(3, 1, 1);
+    rotate: 120deg;
+    margin-left:155px;
+    margin-top:-29px;
+}
+.oscuro3{
+    width:500px;
+    height: 7px;
+    background-color: rgb(3, 1, 1);
+    margin-left:190px;
+    margin-top:-31px;
+}
+.oscuro4{
+    width:420px;
+    height: 7px;
+    background-color: rgb(3, 1, 1);
+    rotate: 90deg;
+    margin-left:200px;
+    margin-top:170px;
+}
+
+.imagen{
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 2px solid;
+    background-image: url('imagenes/fuego.JPG');
+}
+.fondo_imagen{
+    background-color: rgba(223, 223, 223, 0.925);
+    margin-left: 50px;
+    height: 200px;
+    width: 280px;
+    margin-top: -100px;
+    border: 2px solid;
+}
+
+.flecha{
+    background-color: black;
+    width: 30px;
+    height: 70px;
+    margin-left: 300px;
+    margin-top: -65px;
+}
+
+.flecha2{
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    margin-left: 280px;
+    margin-top: -50px;
+}
+
+.importar{
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color:rgb(76, 137, 100);
+    width: 170px;
+}
+
+.pokeN{
+
+    margin-bottom: 5px;
+    background-color:rgba(192, 218, 203, 0.937);
+}
+
+.boton{
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 6px;
+    font-weight: 400;
+    font-size: 15px;
+    background-color:rgb(76, 137, 100);
+    border-radius: 5px;
+}
+
+.oscuro5{
+    width:50px;
+    height: 7px;
+    background-color: rgb(3, 1, 1);
+    rotate: -120deg;
+    margin-left:686px;
+    margin-top:-370px;
+}
+.oscuro6{
+    width:138px;
+    height: 7px;
+    background-color: rgb(3, 1, 1);
+    margin-left:720px;
+    margin-top:13px;
+}
+
+.oscuro7{
+    width: 418px;
+    height: 7px;
+    background-color: rgb(3, 1, 1);
+    rotate: 90deg;
+    margin-left: 180px;
+    margin-top: 129px;
+}
+
+.blanco{
+    background-color: white;
+    width: 330px;
+    height: 31px;
+    margin-left: 420px;
+    margin-top: -215px;
+}
+.blanco2{
+    background-color: white;
+    width: 140px;
+    height: 74px;
+    margin-left: 724px;
+    margin-top: -32px;
+}
+.blanco3{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    margin-left: 663px;
+    margin-top: -65px;
+    rotate: 60deg;
+}
+
+.texto{
+    border: 0px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: large;
+    background-color:rgba(223, 223, 223, 0.925) ;
+}
+.fondo_negro{
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+.tabla {
+    margin-left: 520px;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+td{
+    border: 1px solid black;
+    background-color: rgb(69, 152, 211);
+    text-align: center;
+    font-size: large;
+}
+
+.ptype{
+    margin-left: 10px;
+    color:antiquewhite;
+    font-size: large;
+}
+
+.pokemove{
+    color:antiquewhite;
+    margin-left: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+.linea{
+    margin-left: 710px;
+    background-color: black;
+    margin-top: 5px;
+    width: 40px;
+    height: 8px;
+}
+.linea2{
+    margin-left: 760px;
+    background-color: black;
+    margin-top: -8px;
+    width: 40px;
+    height: 8px;
+}
+
+.cuadrob{
+width: 30px;
+height: 30px;
+background-color: white;
+margin-left: 470px;
+border: 1px solid;
+margin-top: 10px;
+}
+.cuadrob2{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-left: 505px;
+    border: 1px solid;
+    margin-top: -32px;
+ }
+
+.cuadrobs{
+        width: 150px;
+        height: 40px;
+        background-color: black;
+        margin-left: 470px;
+        border: 1px solid;
+        margin-top: 30px;
+ }
+
+ .cuadrobs2{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    margin-left: 650px;
+    border: 1px solid;
+    margin-top: -43px;
+}
+
+.circulo4{
+    width: 22px;
+ height: 22px;
+ border-radius: 50%;
+ background-color: rgb(235, 245, 36);
+margin-left: 780px;
+margin-top: -85px;
+}
+

@@ -1,0 +1,248 @@
+/*Inicio del Header*/
+header{
+    background-color: rgba(200, 142, 206, 0.952);
+    height: auto;
+    display:flex;
+}
+.LP{
+    margin: auto;
+    flex: 1;
+}
+
+.logo{
+    width: 150px;
+    margin: 2%;
+    float: left;
+    display: flex;
+}
+
+.pastelero{
+    float: right;
+    margin: 3%;
+    display: flex;
+    width: 5%;
+
+}
+/*Fin del Header*/
+
+body {
+    font-family: sans-serif;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/129/158/non_2x/pink-dots-white-background-vector.jpg);
+  }
+/* Inicio del slider para los pasteles */
+.slider{
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(170, 192, 230, 0.81);
+}
+.slider ul{
+    display: flex;
+    animation: cambio 12s infinite alternate linear;
+    width: 165%;
+    margin: 5px;
+    padding: 11px;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -5%;
+}
+.slider img{
+    width: 80%;
+    height: 60%;
+}
+
+@keyframes cambio{
+    0%{ margin-left: 0;}
+    10%{margin-left: 0;}
+    35%{margin-left: -34%;}
+    85%{margin-left: -68%;}
+    100%{margin-left: -68%;}
+}
+
+.slider2{
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(170, 192, 230, 0.81);
+}
+.slider2 ul{
+    display: flex;
+    animation: cambio2 12s infinite alternate linear;
+    width: 165%;
+    margin: 5px;
+    padding: 10px;
+}
+.slider2 li{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -12%;
+}
+.slider2 img{
+    width: 80%;
+    height: 40%;
+}
+
+@keyframes cambio2{
+    0%{ margin-left: 0;}
+    10%{margin-left: 0;}
+    35%{margin-left: -34%;}
+    85%{margin-left: -68%;}
+    100%{margin-left: -68%;}
+}
+/* Fin del slider */
+
+/* Diseño de textos */
+h1{
+text-align: center;
+display: inline;
+margin-left: 400px;
+font-family: 'Courier New', Courier, monospace;
+font-style: italic;
+}
+
+h2, .pastel p{
+    display: inline-block;
+    height: 2px;
+}
+
+.adornos{
+    text-align:left;
+    font-size: large;
+}
+
+.sabores{
+    font-size: large;
+    }
+/*Fin del diseño de textos */
+
+
+footer{
+    text-align: center;
+    background-color: rgba(200, 142, 206, 0.952);
+    align-items: center;
+}
+/*Inicio del formulario */
+form{
+    background-color: rgba(178, 129, 183, 0.81);
+    text-align: center;
+}
+
+input{
+border-radius: 5px;
+background-color: rgba(200, 142, 206, 0.952);
+}
+textarea{
+    border-radius: 5px;
+}
+
+/* Fin del formulario */
+/*Inicio edición página del pastelero */
+nav{
+    width:47%;
+    float: left;
+    padding: 20px;
+    background-color: white;
+    height: 200px;
+    text-align: center;
+}
+article{
+    width: 47%;
+    float: left;
+    padding: 20px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.pedidos{
+    width: 100%;
+    float: inline-start;
+    margin: auto;
+    padding: 10px;
+}
+
+.table{
+    width: 90%;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    background-color: rgba(170, 192, 230, 0.95);
+
+}
+
+.table th, .table td{
+    text-align: center;
+}
+/*Fin edición página del pastelero */
+
+/* Diferentes diseño dependiendo de la pantalla */
+@media (min-width:768px) {
+    header{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .table{
+        margin: auto;
+    }
+
+}
+
+@media (max-width:768px) {
+    header{
+        padding: 5px;
+        width: 90%;
+        justify-content: space-between;
+        margin-left: 2%;
+    }
+    .LP{
+        font-size: medium;
+    }
+
+    .pastelero{
+        height: 50px;
+        width: 50px;
+        margin-top: 8%;
+        margin-right: 5%;
+    }
+
+    .table{
+        border: 0px;
+    }
+    .table caption{
+        font-size: small;
+    }
+    .table thead{
+        display: none;
+    }
+    .table tr{
+        margin-bottom: 8px;
+        border-bottom: 4px solid;
+        display: block;
+    }
+    .table th, .table td{
+        font-size: 12px;
+    }
+    .table td{
+        display: block;
+        text-align: right;
+        border-bottom: 1px solid;
+    }
+    .table td::before{
+        content: attr(data-label);
+        float: left;
+        margin-right: 10%;
+        font-weight: bold;
+    }
+}

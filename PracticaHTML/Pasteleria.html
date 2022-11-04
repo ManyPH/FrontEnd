@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet">
+    <title>Practica 2 Pasteleria</title>
+</head>
+<body>
+    <header>
+                <!-- Llamamos al botón que nos ayudara para ir a la página del pastelero-->
+        <img class="logo" src="imagenes/PL.png" alt="Logo de la pasteleria">
+        <h1 class="LP">Loki's Pasteleria</h1>
+        <a href="Pastelero.html" target="blank" class="pastelero"><input type="button" value="Pastelero"  id="pastelero"></a>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <div class="slider">
+                <!--Sabores que maneja la empresa-->
+                 <b class="sabores">Sabores</b>
+                <ul>
+                    <li>Zanahoria<br>
+                        <img src="imagenes/pastel.jpg" alt="Pastel de Zanahoria">
+                    </li> 
+                    <li>Fresa <br>
+                        <img src="imagenes/pastelF.jpg" alt="Pastel de Fresa">
+                    </li>
+                    <li>Chocolate<br>
+                        <img src="imagenes/PChocolate.jpg" alt="Pastel de Chocolate">
+                    </li>
+                    <li>Vainilla<br>
+                        <img src="imagenes/PVainilla.jpg" alt="Pastel de Vainilla">
+                    </li>
+                    <li>Mora<br>
+                        <img src="imagenes/PMora.jpg" alt="Pastel de Mora">
+                    </li>
+                </ul>
+            </div>
+            <div class="slider2">
+            <!--Adornos que maneja la empresa-->
+            <b class="adornos">Adornos</b>
+            <ul>
+                <li>Velas<br>
+                    <img src="imagenes/Velas.jpg" alt="Velas">
+                </li> 
+                <li>Topper<br>
+                    <img src="imagenes/Topper.jpg" alt="Topper">
+                </li>
+                <li>Frutas<br>
+                    <img src="imagenes/Frutas.jpg" alt="Frutas">
+                </li>
+                <li>Figuras<br>
+                    <img src="imagenes/kirby.jpg" alt="Figuras">
+                </li>
+                <li>Macarrones<br>
+                    <img src="imagenes/Macarrones.jpg" alt="Macarrones adornos">
+                </li>
+            </ul>
+            </div>
+        </section>
+        <div> 
+            <form>
+            <label for="nombre">Inserte su nombre: </label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Apiya Beltran" required>
+            <br>
+            <label for="telefono">Inserte su telefono:</label><br>
+            <input type="tel" id="telefono" name="telefono" placeholder="686*******" maxlength="10" required>
+            <br>
+            <label for="email">Inserte su correo:</label><br>
+            <input type="email" id="email" name="email" placeholder="pastelero@gmail.com" required>
+            <br>
+            <label for="descripcion">Inserte una descripcion de como desea su pastel:</label> <br>
+            <textarea></textarea>
+            <br>
+            <label for="fecha">Para cuando desea el pastel:</label>
+            <br>
+            <input type="datetime-local" id="fecha" name="fecha">
+            <br>
+            <label for="Eleccion_sabor">Seleccione los sabores que quiere en su pastel: </label>
+            <br>
+            <input type="checkbox" class="Eleccion_sabor">Zanahoria 
+            <input type="checkbox" class="Eleccion_sabor">Fresa
+            <input type="checkbox" class="Eleccion_sabor">Vainilla
+            <input type="checkbox" class="Eleccion_sabor">Chocolate
+            <input type="checkbox" class="Eleccion_sabor">Mora
+            <br>
+            <label>Seleccione los adornos que quiere en su pastel: </label>
+            <br>
+            <input type="checkbox">Velas 
+            <input type="checkbox">Figuras
+            <input type="checkbox">Topper
+            <input type="checkbox">Frutas
+            <input type="checkbox">Macarrones
+            <br>
+                <input type="submit" value="Enviar Pedido">
+        </form>
+    </div>
+    </main>
+    <br>
+</body>
+<footer>
+    <br>
+<label>Dirección: <a href="https://goo.gl/maps/NfQYaJAdhzjFYrQe6">Centro Comercial Calimax, Boulevard Lázaro Cárdenas 2389.</a> </label>
+<br>
+<label>  Horario: Lunes a Viernes de 8:00 am - 5:00pm</label>
+</footer>
+</html>

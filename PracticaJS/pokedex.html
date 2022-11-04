@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" min-width=768px>
+        <title>Pokedex LaunchX</title>
+        <link rel="stylesheet" href="./pokedex.css">
+    </head>
+    <body class="pk">
+        <p>Pokedex</p>
+        <section class="base">
+            <!-- Circulos que nos sirven para diseño de la parte superior de la Pokedex -->
+            <div class="circulo">
+                <div class="circulo2">
+                    <div class="circulo3">
+                        <div class="rojo">
+                            <div class="rojo2"></div>
+                        </div>
+                        <div class="amarillo">
+                            <div class="amarillo2"></div>
+                        </div>
+                        <div class="verde">
+                            <div class="verde2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Circulos que nos sirven para diseño de la parte superior de la Pokedex -->
+            <div class="oscuro"></div>
+            <div class="oscuro2"></div>
+            <div class="oscuro3"></div>
+            <div class="oscuro4"></div>
+            <!-- Fondo que nos permitira colocar al pokemon, al inicio se presentara una imagen de pokebola -->
+            <div class="fondo_imagen"><img src='imagenes/pokebolas.jfif' alt="Pokemon" id="pokeImg" class="imagen" height="170px" width="250px">
+                <span id="pokeid" class="texto"></span></div>
+            <article class="importar">
+            <!-- Input en el que nos permitira colocar el numero o nombre del pokemon -->
+                <input type="text" placeholder="pikachu" id="pokeName" name="pokeName" class="pokeN">
+                <br>
+                <button onclick="fetchPokemon()" class="boton">Buscar Pokemon</button>
+            </article>
+            <div class="flecha"></div>
+            <div class="flecha2"></div>
+            <div class="triangulo"></div>
+            <div class="triangulo2"></div>
+        </section>
+        <div class="oscuro5"></div>
+        <div class="oscuro6"></div>
+        <div class="oscuro7"></div>
+        <div class="blanco"></div>
+        <div class="blanco2"></div>
+        <div class="blanco3"></div>
+        <!-- Fondo negro que nos permitira colocar los movimientos y habilidades dentro de la pokedex -->
+        <div class="fondo_negro">
+            <span class="ptype" id="poketype"></span> <span class="ptype" id="abilitie"></span>
+            <br>
+            <span class="ptype" id="moves"></span>
+            <br>
+            <span class="pokemove" id="move0"></span>
+            <span class="pokemove" id="move1"></span>
+            <br>
+            <span class="pokemove" id="move2"></span>
+            <span class="pokemove" id="move3"></span>
+        </div>
+        <!-- Tabla despegable con los valores numericos de las estadisticas base del pokemon -->
+        <table class="tabla">
+            <tbody>
+                <tr>
+                    <td>Hp</td>
+                    <td>Atk</td>
+                    <td>Def</td>
+                    <td>Sp.Atk</td>
+                    <td>Sp.Def</td>
+                    <td>Speed</td>
+                </tr>
+                <tr>
+                    <td><span id="stat0"></span></td>
+                    <td><span id="stat1"></span></td>
+                    <td><span id="stat2"></span></td>
+                    <td><span id="stat3"></span></td>
+                    <td><span id="stat4"></span></td>
+                    <td><span id="stat5"></span></td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Tabla despegable con los valores numericos de las estadisticas base del pokemon -->
+        <div class="linea"></div>
+        <div class="linea2"></div>
+        <div class="cuadrob"></div>
+        <div class="cuadrob2"></div>
+        <div class="cuadrobs"></div>
+        <div class="cuadrobs2"></div>
+        <div class="circulo4"></div>
+    </body>
+    <footer>
+        <script src="pokedex.js"></script>
+    </footer>
+</html>

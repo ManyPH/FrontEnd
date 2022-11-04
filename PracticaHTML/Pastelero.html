@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="styles.css" rel="stylesheet">
+        <title>Visualización Pastelero</title>
+    </head>
+    <body>
+        <header>
+            <!-- Función que nos permite que el logo sea capaz de llevarnos a la página de inicio -->
+            <a href="Pasteleria.html"><img class="logo" src="imagenes/PL.png" alt="Logo de la pasteleria"></a>
+            <h1 class="LP">Loki's Pasteleria</h1>
+           </header>
+           <hr>
+        <section>
+             <!-- En esta parte el pastelero puede ver los sabores con los que cuenta, que sabores se le estan por terminar y cuales deberia de reponer -->
+            <nav>
+                <p>Sabores</p>
+                <label>Zanahoria: Disponible</label>
+                <br> 
+                <label>Fresa: Agotado</label> 
+                <br>
+                <label>Vainilla: Disponible</label>
+                <br>
+                <label>Chocolate: Disponible</label>
+                <br>
+                <label>Mora: Agotado</label> 
+            </nav>
+            <!-- En esta parte el pastelero puede ver los adornos con los que cuenta, que sabores se le estan por terminar y cuales deberia de reponer -->
+            <article>
+                <p>Adornos</p>
+            <label>Velas: En existencia</label> 
+            <br>
+            <label>Toppers: Disponible unicamente los que dicen feliz cumpleaños</label>
+            <br>
+            <label>Figuras: Por pedido, materiales disponibles</label>
+            <br>
+            <label>Frutas: Fresas y duraznos en existencia</label>
+            </article>
+        </section>
+        <div class="pedidos">
+            <!-- Esta tabla le permitiria ver al pastelero los pedidos que se han realizado a través del form -->
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Telefono</th>
+                <th>Correo</th>
+                <th>Descripcion del pastel</th>
+                <th>Fecha</th>
+                <th>Sabores</th>
+                <th>Adornos</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td data-label="Nombre">Nat O.</td>
+                <td data-label="Telefono">6866866868</td>
+                <td data-label="Correo">nato@gmail.com</td>
+                <td data-label="Descripcion">Quiero que el pastel por dentro tenga diferentes tonos de rojo</td>
+                <td data-label="Fecha">21/11/2022 10:00 am</td>
+                <td data-label="Sabores">Vainilla</td>
+                <td data-label="Adornos">Velas</td>
+            </tr>
+            <tr>
+                <td data-label="Nombre">Bruno F.</td>
+                <td data-label="Telefono">1234567890</td>
+                <td data-label="Correo">ManU@gmail.com</td> 
+                <td data-label="Descripcion">Quiero un diseño de camiseta del equipo Manchester U. en el pastel</td>
+                <td data-label="Fecha">25/10/2022 3:00 pm</td>
+                <td data-label="Sabores">Chocolate</td>
+                <td data-label="Adornos">Topper</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
+</html>
