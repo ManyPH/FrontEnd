@@ -5,7 +5,7 @@ background-color: black;
 .fondo{
     background-color: azure;
     width: 80%;
-    height: 1000px;
+    height: 2000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -53,8 +53,6 @@ h1{
 }
 h2{
     color: navy;
-    margin-left: 120px;
-    margin-bottom: 30px;
 }
 
 section {
@@ -85,10 +83,6 @@ margin-top: -20px;
 color:gray;
 }
 
-footer{
-    background-color: rgb(228, 243, 250);
-    height: 200px;
-}
 
 .schedule{
 float: left;
@@ -121,41 +115,125 @@ margin-left: 120px;
 }
 .fotos{
     margin-left: 90px;
-    margin-top: 10px;
+    margin-top: 80px;
     margin-bottom: 80px;
+    height: 100px;
+}
+
+.subtitle{
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+.Minimize{
+    height: 15%;
+    width: 18%;
+    float: left;
+    padding: 5px;
+    margin-left: 9%;
+    border-radius: 5px;
+    border: gray solid 1px;
+    display: block;
+}
+
+.Min, .For, .Proc, .Crea{
+    height: 50px; 
+    width: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.Forming{
+    height: 15%;
+    width: 18%;
+    float: left;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: gray solid 1px;
+    display: block;
+}
+
+.Protecting{
+    height: 15%;
+    width: 18%;
+    float: left;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: gray solid 1px;
+    display: block;
+}
+
+.Creating{
+    height: 15%;
+    width: 18%;
+    float: left;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: gray solid 1px;
+    display: block;
+}
+
+.group{
+    margin-top: -30px;
+    margin-left: 5%;
+}
+
+.grouptext{
+    margin-top: -10px;
+    color:gray;
+    font-size: medium;
+}
+
+.derecha{
+    float:right;
+    margin-right: 8%;
+    margin-top: 8%;
+    text-align: left;
+}
+
+/* Parte inferior de la página */
+footer{
+    background-color: rgb(228, 243, 250);
+    height: 200px;
+    width: 80%;
+    margin: auto;
 }
 
 .top{
-margin-bottom: -30px;
-font-size: 25px;
-}
-.goal{
-    width: 20%;
-    margin-left: 50px;
-    text-align: center;
-    float: left;
-    display: block;
-}
-.tabla{
-    float: right;
-    width: 75%;
-    align-items: center;
-    margin-top: 40px;
-    padding: 5px;
-    margin-bottom: 20px;
-}
-table{
-    margin-left: 200px;
-}
-.space{
-    width: 200px;
-}
-.i{
-    float: left;
-    display: block;
-}
-.r{
-    float: right;
-    margin-left: -50px;
-    margin-right: 100px;
-}
+    margin-bottom: -30px;
+    font-size: 25px;
+    }
+    .goal{
+        width: 20%;
+        margin-left: 50px;
+        text-align: center;
+        float: left;
+        display: block;
+    }
+    .tabla{
+        float: right;
+        width: 75%;
+        align-items: center;
+        margin-top: 40px;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+    table{
+        margin-left: 200px;
+    }
+    .space{
+        width: 200px;
+    }
+    .i{
+        float: left;
+        display: block;
+    }
+    .r{
+        float: right;
+        margin-left: -50px;
+        margin-right: 100px;
+    }
+/* Parte inferior de la página */
