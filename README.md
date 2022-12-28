@@ -1,5 +1,5 @@
- Aquí se encuentran recopiladas las 4 prácticas hechas para la sesión de front-end, cada una dividida en su propia carpeta.
-# Practica 
+ Aquí se encuentran recopiladas las prácticas hechas para la sesión de front-end, cada una dividida en su propia carpeta.
+
 # [Practica HTML](https://manyph.github.io/FrontEnd/PracticaHTML/Pasteleria.html)
 Práctica sobre una pasteleria en la cual debiamos de realizar un logo, crear un formulario, permitir al usuario ver los pasteles y adornos que hay en la pasteleria.
 
